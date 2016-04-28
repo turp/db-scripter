@@ -1,3 +1,4 @@
 /src/packages
-/src/DbScripter/obj
 /src/.vs
+bin
+obj
