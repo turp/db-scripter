@@ -9,7 +9,7 @@
 
         public bool IsValid()
         {
-            return string.IsNullOrEmpty(Database) || string.IsNullOrEmpty(Server) || string.IsNullOrEmpty(OutputFolder);
+            return false == (string.IsNullOrEmpty(Database) || string.IsNullOrEmpty(Server) || string.IsNullOrEmpty(OutputFolder));
         }
     }
 }
